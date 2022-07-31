@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    display: inline-block
+}
+.mid{
+    /* position: absolute; */
+    margin: 20px auto;
+    display: block;
+    width: 50%;
+}
+.navbar li{
+    display: inline-block;
+    /* color: white; */
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: aquamarine;
+}
+.left img{
+    width: 180px;
+    
+}
+.container{
+    /* border: 2px solid aquamarine; */
+    margin: 106px 80px;
+    padding: 28px;
+    width: 30%;
+    border-radius: 50%;
+    /* background-color: rgb(252, 249, 246); */
+    /* opacity: 75; */
+}
+.form input{
+    text-align: center;
+    display: block;
+    width: 248px;
+    padding: 10px;
+    border: 3px solid aquamarine;
+    margin: 10px auto;
+    border-radius: 50%;
+    left: 780px;
+    /* position: absolute; */
+    /* top: 220px; */
+}
+.container,h1{
+    text-align: center;
+    color: aquamarine;
+    /* right: 50px; */
+    /* position: relative; */
+
+}
+.btn{
+    border: 1px solid black;
+    background-color: aquamarine;
+    width: 150px;
+    margin: 10px auto;
+    height: 34px;
+    border-radius: 90%;
+}
+
+.btn1{
+    border-radius: 50%;
+    width: 90px;
+    padding: 5px;
+    background-color: aquamarine;
+}
+.right1 img{
+    width: 80px;
+    height: 25px;
+    border-radius: 1000px;
+}
+.right{
+    position: absolute;
+    right: 99px;
+    top: 24px;
+    display: inline-block;
+    /* color: rgb(237, 237, 238); */
+}
+.right a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.right a:hover{
+    /* text-decoration: underline; */
+    color: rgb(198, 214, 48);
+    
+}
+.right1{
+    position: absolute;
+    right : 186px;
+    top: 20px;
+    display: inline-block;
+    
+}
+.body1 img{
+    background-size: cover;
+    width: 1400px;
+    height: 700px;
+}
+.image img{
+    /* width: 400px; */
+    /* border-radius: 220px; */
+    /* height: 90%; */
+    /* opacity: 0.8; */
+    width: 580px;
+    height: 590px;
+    opacity: 0.4;
+    color: blueviolet;
+    border-radius: 900px;
+    position: sticky;
+    overflow: hidden;
+
+    /* font-size: 44px; */
+}
+.image{
+    position: absolute;
+    top: 820px;
+    right: 720px;
+}
